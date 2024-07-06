@@ -4901,6 +4901,7 @@ html {
   
     .nahuel-bio-l {
       width: 100%;
+      min-height: auto;
     }
   
     .nahuel-bio-r {
@@ -4950,7 +4951,7 @@ html {
     .kia-grid-child {
       width: 100%;
       height: 100%;
-      transform: rotate(0);
+      transform: none;
     }
   
     .kia-grid-list {
@@ -5103,10 +5104,10 @@ html {
       width: 50em;
     }
   
-    .porfolio-home-overlay {
+    /* .porfolio-home-overlay {
       -webkit-backdrop-filter: grayscale();
       backdrop-filter: grayscale();
-    }
+    } */
   
     .super-text-footer {
       font-size: 14vw;
@@ -5189,6 +5190,15 @@ html {
   
     .nav-singles-2.flex-cc-h {
       display: none;
+    }
+
+    .nahuel-bio-l {
+      /* width: 100%; */
+      min-height: 500px;
+    }
+
+    .nahuel-bio-img{
+      position: relative;
     }
   
     .border-line-btm.thin {
